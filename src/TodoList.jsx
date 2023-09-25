@@ -12,6 +12,9 @@ function TodoList() {
         event.preventDefault();
         setTodos([...todos, todo]);
     }
+    const deleteTodo = (index) => {
+        setTodos(todos.filter((todo, i) => i !== index));
+    }
 
     return (
         <div className="TodoList">
@@ -34,6 +37,7 @@ function TodoList() {
                             <tr key={index}>
                                 <td>{todo.date}</td>
                                 <td>{todo.desc}</td>
+                                <td><button onClick={() => deleteTodo(index)}>Delete</button></td>
                             </tr>
                         )
                     }
