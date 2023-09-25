@@ -33,6 +33,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  text-decoration-line: underline;
 }
 
 button {
@@ -70,8 +71,15 @@ table {
   margin: auto;
 }
 th {
-  padding: 0.2em 6em;
+  padding: 0.2em 3em;
+  border-bottom: 1px solid white;
+  text-align: center;
+  
 }
 label {
   padding: 0.2em;
+  
+}
+td {
+  border-bottom: #f9f9f9 solid 0.5px;
 }
