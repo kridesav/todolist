@@ -36,20 +36,27 @@ h1 {
   color: #585454;
 }
 input {
-  block-size: 49px;
+  block-size: 52px;
   background-color: white;
   color: #1a1a1a;
   text-align: center;
+  margin: 2px;
+  border-color: #ffffff;
+  align-self: auto;
+  padding: 0;
+  margin-top: auto;
 }
 
 button {
   border-radius: 10px;
-  border: 1px solid transparent;
-  padding: 15px 1em;
+  border: 1px solid black;
+  padding: 14px 1em;
+  margin: 2px;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
+  color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
